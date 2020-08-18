@@ -1,0 +1,123 @@
+@media only screen and (max-width: 800px){
+  * {
+      padding: 0;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .menu-content li a {
+    font-size: 12px;
+    padding: 0 5px 0 0;
+  }
+
+  #SECTION2 h1 {
+    font-size: 35px;
+  }
+
+  .skill {
+    flex-direction: column;
+  }
+
+  .skill li img {
+    width: 80%;
+  }
+
+  #SECTION3 h1 {
+    font-size: 35px;
+  }
+
+  .pofol_box {
+    flex-direction: column;
+  }
+
+  #SECTION4 h1 {
+    font-size: 35px;
+  }
+
+  .contact_inner p {
+    font-size: 18px;
+  }
+
+  #footer .current .date {
+    font-size: 20px;
+  }
+
+  #footer .current .clock {
+    font-size: 25px;
+  }
+
+  #footer p {
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  * {
+      padding: 0;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .menuFixed {
+    position: relative;
+  }
+
+  #menu-btn {
+    display: block;
+  }
+
+  .menu-content ul {
+    position: absolute;
+    display: none;
+  }
+
+  .menu-content li a {
+    font-size: 5px;
+  }
+
+  #SECTION2 h1 {
+    font-size: 30px;
+  }
+
+  .skill {
+    flex-direction: column;
+  }
+
+  .skill li img {
+    width: 70%;
+  }
+
+  #SECTION3 h1 {
+    font-size: 30px;
+  }
+
+  .pofol_box {
+    flex-direction: column;
+  }
+
+  #SECTION4 h1 {
+    font-size: 30px;
+  }
+
+  .contact_inner p {
+    font-size: 15px;
+  }
+
+  #footer .current .date {
+    font-size: 18px;
+  }
+
+  #footer .current .clock {
+    font-size: 20px;
+  }
+
+  #footer p {
+    font-size: 10px;
+    padding: 10px;
+  }
+}
